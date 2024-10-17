@@ -1,4 +1,4 @@
-numbers = (1..20).to_a
+numbers = 1..20
 numbers.each do |i|
     if i%3 == 0 && i%5 == 0
         puts "FizzBuzz"
@@ -10,3 +10,4 @@ numbers.each do |i|
         puts i
     end
 end
+
